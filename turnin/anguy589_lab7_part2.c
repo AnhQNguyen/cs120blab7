@@ -25,7 +25,7 @@ int main(void) {
 	DDRB = 0xFF; PORTB = 0x00;
 	DDRD = 0xFF; PORTD = 0x00;	
 
-	//max: 255, min = 23	
+	//max: 511, min = 23	
 
 	
     //lower 8 bits on portB PB[7:0]
